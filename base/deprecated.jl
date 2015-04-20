@@ -479,3 +479,6 @@ export float32_isvalid, float64_isvalid
 # 11379
 
 @deprecate utf32(c::Integer...)   UTF32String(UInt32[c...,0])
+
+const UnionType = Union
+export UnionType
